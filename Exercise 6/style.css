@@ -1,0 +1,22 @@
+button{
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+button:hover{
+    padding: 10px;
+    background: green;
+}
+.boton-ejercicio::before{
+    content: 'Pasar por encima';
+}
+.boton-ejercicio:hover::before{
+    display: none;
+}
+.boton-ejercicio:hover::after{
+    content: '¡Hecho!';
+}
