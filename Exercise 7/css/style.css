@@ -4,6 +4,9 @@
 }
 body{
     background-color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .container{
     display: flex;
